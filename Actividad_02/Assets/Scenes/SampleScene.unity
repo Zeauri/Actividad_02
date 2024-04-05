@@ -260,6 +260,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 9.129
       objectReference: {fileID: 0}
+    - target: {fileID: -965430647836527448, guid: 76ae8d92f351de74db7b006f95e17d72, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.2085583
+      objectReference: {fileID: 0}
     - target: {fileID: -724320702283070549, guid: 76ae8d92f351de74db7b006f95e17d72, type: 3}
       propertyPath: m_LocalRotation.w
       value: 0.954637
@@ -641,6 +645,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   velocidad: 2
+  animator: {fileID: 2015741989}
 --- !u!95 &2015741989
 Animator:
   serializedVersion: 7
